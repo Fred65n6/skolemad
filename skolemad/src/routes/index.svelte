@@ -119,7 +119,7 @@
 		padding-top: 14rem;
 		padding-bottom: 15.5rem;
 		background-image: url(./green-bg.svg);
-		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#section-2 .container {
@@ -164,7 +164,7 @@
 		padding-top: 14rem;
 		padding-bottom: 14rem;
 		background-image: url(./green-bg.svg);
-		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#section-4 p {

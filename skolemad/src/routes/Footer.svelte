@@ -32,7 +32,7 @@
 
 <style>
 	Footer {
-		margin-top: 0rem;
+		margin-top: 4rem;
 		padding-block: 5rem;
 		object-fit: contain;
 		display: grid;

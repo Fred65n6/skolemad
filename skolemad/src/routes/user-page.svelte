@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>SkoleMad.dk</title>
 </svelte:head>
 
 <section id="heading">
@@ -75,14 +75,15 @@
 
 <style>
 	#section-1 {
-		padding-top: 8rem;
-		padding-bottom: 8rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 		color: white;
 		width: 100%;
 		background-image: url(./green-bg.svg);
+		background-size: cover;
 	}
 	#parent {
-		padding-top: 2rem;
+		padding-top: 3.5rem;
 		align-items: center;
 		display: flex;
 		place-content: center;
@@ -111,6 +112,10 @@
 	.børn {
 		gap: 50px;
 		display: grid;
+	}
+
+	.container-1 h3 {
+		text-decoration: underline;
 	}
 
 	.aktiv {
@@ -144,9 +149,5 @@
 
 	#section-2 p {
 		max-width: 500px;
-	}
-
-	h2 {
-		text-align: center;
 	}
 </style>
