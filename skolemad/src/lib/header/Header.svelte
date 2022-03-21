@@ -29,7 +29,7 @@
 			</li>
 
 			<li id="user-page" class:active={$page.url.pathname === '/user-page'}>
-				<a sveltekit:prefetch href="/user-page">Opret bruger</a>
+				<a id="knap" sveltekit:prefetch href="/user-page">Opret bruger</a>
 			</li>
 		</ul>
 	</nav>
