@@ -6,7 +6,7 @@
 <header>
 	<div class="corner">
 		<a href="/">
-			<img src="./logo 1.png" alt="logo" />
+			<img src="./skolemad_logo.png" alt="logo" />
 		</a>
 	</div>
 
@@ -43,7 +43,7 @@
 		padding-block: 0.5rem;
 		display: flex;
 		justify-content: space-between;
-		background-color: #93c0204e;
+		background-color: rgba(255, 255, 255, 0.728);
 	}
 
 	.corner a {
@@ -88,7 +88,7 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 1em;
-		color: white;
+		color: black;
 		font-weight: 500;
 		font-size: 0.8rem;
 		text-transform: uppercase;

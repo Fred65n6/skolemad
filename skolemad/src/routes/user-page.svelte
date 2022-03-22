@@ -26,7 +26,7 @@
 </section>
 
 <section id="section-1">
-	<h1>Se din profil</h1>
+	<h2>Se din profil</h2>
 	<div id="parent">
 		<div class="container-1">
 			<div class="">
@@ -36,20 +36,25 @@
 					<h4>Felix Grage</h4>
 				</div>
 			</div>
+
 			<div class="abonnomenter">
 				<h3>Abonnomenter</h3>
 				<a class="aktiv" href="*">Aktiv</a>
 				<a class="inaktiv" href="*">Inaktiv</a>
 			</div>
+			<!-- <a id="knap" href="*">+ Tilføj barn</a> -->
 		</div>
 
 		<div class="container-2">
-			<h3>Se eller rediger din profil her</h3>
-			<a id="knap" href="*">Gå til profiloversigt</a>
+			<div class="grid place-items-center">
+				<div class="flex">
+					<h3>Se eller rediger din profil her</h3>
+					<img class="pil pt-9	" src="./pil.svg" alt="pil" />
+				</div>
+				<a id="knap" href="*">Gå til profiloversigt</a>
+			</div>
 		</div>
 	</div>
-
-	<a id="knap" href="*">+ Tilføj barn</a>
 </section>
 
 <section id="section-2">
@@ -75,55 +80,49 @@
 
 <style>
 	#section-1 {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
+		padding-top: 6rem;
+		padding-bottom: 12rem;
 		color: white;
 		width: 100%;
 		background-image: url(./green-bg.svg);
 		background-size: cover;
 	}
 	#parent {
-		padding-top: 3.5rem;
-		align-items: center;
+		margin: 0 auto;
+		padding-top: 2rem;
 		display: flex;
-		place-content: center;
 		gap: 20rem;
-	}
-
-	.container-1 a {
-		font-size: 1.5rem;
 	}
 
 	.container-1 {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 50px;
 	}
 
-	.container-2 {
-		display: grid;
-		gap: 50px;
+	.container-1 #knap {
+		font-size: 1rem;
+		position: relative;
+		left: 3rem;
+		top: 2rem;
 	}
 
 	.abonnomenter {
-		gap: 50px;
+		gap: 30px;
 		display: grid;
 	}
 	.børn {
-		gap: 50px;
+		gap: 30px;
 		display: grid;
-	}
-
-	.container-1 h3 {
-		text-decoration: underline;
 	}
 
 	.aktiv {
 		color: green;
+		font-size: 1.2rem;
 	}
 
 	.inaktiv {
 		color: red;
+		font-size: 1.2rem;
 	}
 
 	a:hover {
@@ -131,6 +130,7 @@
 	}
 
 	#section-2 .container {
+		margin: 0 auto;
 		display: grid;
 		place-items: center;
 		grid-template-columns: 1fr 1fr;
@@ -139,12 +139,8 @@
 	#section-2 img {
 		width: auto;
 		height: 500px;
-		-webkit-transform: rotate(-90deg);
-		-moz-transform: rotate(-90deg);
-		-o-transform: rotate(-90deg);
-		-ms-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		box-shadow: -3px -3px 4px rgb(59, 59, 59);
+		transform: rotate(90deg);
+		/* box-shadow: -3px 3px 4px rgb(59, 59, 59); */
 	}
 
 	#section-2 p {

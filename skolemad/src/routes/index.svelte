@@ -12,8 +12,8 @@
 <Hero />
 
 <section id="section-1">
+	<h2>Velkommen til SkoleMad.dk</h2>
 	<div class="container-left">
-		<h2>Velkommen til SkoleMad.dk</h2>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aperiam expedita, dicta ipsum,
 			facilis possimus adipisci saepe fuga voluptatum minima accusamus debitis placeat ullam dolorum
@@ -23,7 +23,7 @@
 			Distinctio itaque quasi delectus! Ea, illum. Accusamus sequi voluptates natus ipsam debitis deleniti
 			quaerat optio molestias magni eaque quidem quia, at provident sint animi id aliquid? Soluta, ea?
 		</p>
-		<a id="knap" href="*">Se prislisten</a>
+		<!-- <a id="knap" href="*">Se prislisten</a> -->
 	</div>
 
 	<img src="./mad.jpg" alt="" />
@@ -95,15 +95,16 @@
 		margin-block: 2rem;
 	}
 	#section-1 {
-		justify-items: center;
-		margin-inline: 5rem;
-		display: grid;
-		place-items: center;
+		margin: 0 auto;
 		grid-template-columns: 1fr 1fr;
+	}
+
+	#knap {
+		margin-block: 2rem;
 	}
 	#section-1 img {
 		width: 400px;
-		box-shadow: 3px 3px 4px rgb(59, 59, 59);
+		/* box-shadow: 3px 3px 4px rgb(59, 59, 59); */
 	}
 	.container-left {
 		max-width: 600px;
@@ -112,14 +113,15 @@
 	}
 
 	#section-2 {
-		color: white;
+		color: #007283;
 		justify-items: center;
 		place-items: center;
 		display: flex;
 		padding-top: 14rem;
-		padding-bottom: 15.5rem;
-		background-image: url(./green-bg.svg);
+		padding-bottom: 14rem;
+		background-image: url(./blue-bg.svg);
 		background-size: cover;
+		width: 100%;
 	}
 
 	#section-2 .container {
@@ -150,24 +152,25 @@
 		z-index: 1;
 		text-align: center;
 		padding: 1.5rem;
-		color: white;
+		color: #007283;
 		width: 200px;
 		height: auto;
-		background-color: #87ae24;
+		/* background-color: #87ae24; */
+		background-color: #ededed;
+		border-radius: 12px;
 	}
 
 	#section-4 {
-		color: white;
-		justify-items: center;
-		place-items: center;
+		color: #007283;
 		display: flex;
 		padding-top: 14rem;
-		padding-bottom: 14rem;
-		background-image: url(./green-bg.svg);
+		padding-bottom: 16rem;
+		background-image: url(./blue-bg.svg);
 		background-size: cover;
 	}
 
-	#section-4 p {
+	#section-4 .container {
+		margin: 0 auto;
 		max-width: 400px;
 	}
 </style>

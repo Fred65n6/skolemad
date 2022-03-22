@@ -25,25 +25,24 @@
 			<a href="*">FAQ</a>
 		</div>
 	</div>
-	<div class="">
-		<img src="logo 1.png" alt="logo" />
+	<div class="logo">
+		<img src="skolemad_logo.png" alt="logo" />
 	</div>
 </footer>
 
 <style>
 	Footer {
-		margin-top: 4rem;
+		margin-top: 2rem;
 		padding-block: 5rem;
-		object-fit: contain;
 		display: grid;
-		place-items: center;
-		align-items: center;
+		justify-items: center;
 		grid-template-columns: 1fr 1fr 1fr;
 		background-color: #f0f0f0;
 		gap: 20px;
 	}
 
 	.container {
+		place-items: center;
 		display: flex;
 		gap: 20px;
 		margin-block: 1rem;
@@ -52,5 +51,9 @@
 	.section-1 img {
 		width: auto;
 		height: 20px;
+	}
+
+	.logo {
+		width: 50%;
 	}
 </style>

@@ -8,6 +8,7 @@
 		<div class="form">
 			<input type="username" id="username" name="phone" placeholder="Brugernavn" />
 			<input type="password" id="kodeord" name="kodeord" placeholder="Password" />
+			<a class="not-user" href="*">Endnu ikke bruger?</a>
 			<div id="knap" class:active={$page.url.pathname === '/user-page'}>
 				<a sveltekit:prefetch href="/user-page">Login</a>
 			</div>
@@ -43,20 +44,21 @@
 		font-size: 5rem;
 	}
 
-	a:hover {
-		color: black;
-	}
-
 	.form {
 		padding: 1rem;
 		margin-top: 2rem;
-		box-shadow: 4px 4px 4px rgb(94, 94, 94);
-		background-color: #a9d33b;
+		/* box-shadow: 4px 4px 4px rgb(94, 94, 94); */
+		background-color: #ededed;
 		width: auto;
 		border-radius: 12px;
 		display: grid;
 		place-items: center;
 		width: 25rem;
+	}
+
+	.not-user {
+		color: #648807;
+		padding-block: 0.5rem;
 	}
 
 	input {

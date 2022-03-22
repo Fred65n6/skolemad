@@ -10,6 +10,7 @@
 	main {
 		display: grid;
 		width: 100%;
+		margin: 0 auto;
 	}
 
 	h1 {
@@ -23,37 +24,46 @@
 	}
 
 	h3 {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		font-weight: 500;
 	}
 
 	h4 {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		font-weight: 400;
 	}
 
 	p {
 		font-size: 1.1rem;
-		line-height: 1.8rem;
+		line-height: 2rem;
 	}
 
 	section {
 		display: grid;
 		place-items: center;
 		padding-top: 8rem;
-		padding-bottom: 4rem;
+		padding-bottom: 2rem;
 		padding-inline: 4rem;
 	}
 
 	#knap {
 		text-align: center;
-		margin-block: 1rem;
 		color: white;
 		font-weight: 500;
-		background-color: #87ae24;
+		color: white;
+		background-color: #80b103;
 		padding-inline: 1.5rem;
 		padding-block: 0.75rem;
 		border-radius: 25px;
-		box-shadow: 3px 3px 4px rgb(59, 59, 59);
+		transition: linear 0.5s;
+		/* box-shadow: 3px 3px 4px rgb(59, 59, 59); */
+	}
+	#knap:hover {
+		background-color: #648807;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 }
