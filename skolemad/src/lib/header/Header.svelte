@@ -38,6 +38,7 @@
 <style>
 	header {
 		position: fixed;
+		z-index: 2;
 		width: 100%;
 		padding-inline: 2rem;
 		padding-block: 0.5rem;

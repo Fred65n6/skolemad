@@ -35,15 +35,19 @@
 
 	p {
 		font-size: 1.1rem;
-		line-height: 2rem;
+		line-height: 2.5rem;
 	}
 
 	section {
 		display: grid;
 		place-items: center;
-		padding-top: 8rem;
-		padding-bottom: 2rem;
+		padding-top: 4rem;
+
 		padding-inline: 4rem;
+	}
+
+	#heading {
+		padding-top: 6rem;
 	}
 
 	#knap {
@@ -61,6 +65,10 @@
 	#knap:hover {
 		background-color: #648807;
 		text-decoration: underline;
+	}
+
+	a {
+		color: #93c020;
 	}
 
 	a:hover {

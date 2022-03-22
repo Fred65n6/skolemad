@@ -44,6 +44,10 @@
 		font-size: 5rem;
 	}
 
+	a {
+		color: white;
+	}
+
 	.form {
 		padding: 1rem;
 		margin-top: 2rem;

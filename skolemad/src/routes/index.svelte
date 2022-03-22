@@ -12,8 +12,8 @@
 <Hero />
 
 <section id="section-1">
-	<h2>Velkommen til SkoleMad.dk</h2>
 	<div class="container-left">
+		<h2>Velkommen til SkoleMad.dk</h2>
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aperiam expedita, dicta ipsum,
 			facilis possimus adipisci saepe fuga voluptatum minima accusamus debitis placeat ullam dolorum

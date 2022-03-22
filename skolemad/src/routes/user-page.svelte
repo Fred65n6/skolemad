@@ -15,49 +15,49 @@
 	// @ts-ignore
 
 	import Footer from './Footer.svelte';
+	import Madplan from './Madplan.svelte';
+	import Kontooversigt from './Kontooversigt.svelte';
 </script>
 
 <svelte:head>
 	<title>SkoleMad.dk</title>
 </svelte:head>
-
-<section id="heading">
-	<h1>Velkommen til Stefan</h1>
-</section>
+<section id="heading"><h1>Velkommen Stefan</h1></section>
 
 <section id="section-1">
-	<h2>Se din profil</h2>
-	<div id="parent">
-		<div class="container-1">
-			<div class="">
-				<div class="børn">
-					<h3>Børn</h3>
-					<h4>Mikka Grage</h4>
-					<h4>Felix Grage</h4>
-				</div>
-			</div>
-
-			<div class="abonnomenter">
-				<h3>Abonnomenter</h3>
-				<a class="aktiv" href="*">Aktiv</a>
-				<a class="inaktiv" href="*">Inaktiv</a>
-			</div>
-			<!-- <a id="knap" href="*">+ Tilføj barn</a> -->
+	<Kontooversigt />
+	<div class="container">
+		<a href="*">Afbestilling af ordre</a>
+		<a id="knap" href="*">Tilføj ny ordre</a>
+	</div>
+</section>
+<section id="section-2">
+	<h2>Leverandør til Kalvebod Fælled Skole</h2>
+	<div class="container">
+		<div class="">
+			<h3>Bestilling og abonnoment</h3>
+			<p>
+				Hos os har du to forskellige muligheder for bestilling af madpakke til dit barn: <br />
+				<span>1. Fast abonnement</span> Ved køb af fast abonnement, vil dit barn helt automatisk få
+				leveret skolemad hver måned. Du kan altid afbestille abonnementet i din ordrehistorik.
+				<br />
+				<span>2. Månedlig bestilling </span>Vælg én eller flere specifikke måneder, hvor dit barn
+				skal have leveret skolemad.
+			</p>
 		</div>
 
-		<div class="container-2">
-			<div class="grid place-items-center">
-				<div class="flex">
-					<h3>Se eller rediger din profil her</h3>
-					<img class="pil pt-9	" src="./pil.svg" alt="pil" />
-				</div>
-				<a id="knap" href="*">Gå til profiloversigt</a>
-			</div>
+		<div class="">
+			<img src="mad.jpg" alt="mad" />
 		</div>
 	</div>
 </section>
 
-<section id="section-2">
+<section id="section-3">
+	<h2>Denne måneds madplan</h2>
+	<Madplan />
+</section>
+
+<section id="section-4">
 	<h2>Leverandør til Kalvebod Fælled Skole</h2>
 	<div class="container">
 		<div class="">
@@ -79,54 +79,11 @@
 <Footer />
 
 <style>
-	#section-1 {
-		padding-top: 6rem;
-		padding-bottom: 12rem;
-		color: white;
-		width: 100%;
-		background-image: url(./green-bg.svg);
-		background-size: cover;
-	}
-	#parent {
-		margin: 0 auto;
-		padding-top: 2rem;
+	#section-1 .container {
 		display: flex;
-		gap: 20rem;
-	}
-
-	.container-1 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.container-1 #knap {
-		font-size: 1rem;
-		position: relative;
-		left: 3rem;
-		top: 2rem;
-	}
-
-	.abonnomenter {
-		gap: 30px;
-		display: grid;
-	}
-	.børn {
-		gap: 30px;
-		display: grid;
-	}
-
-	.aktiv {
-		color: green;
-		font-size: 1.2rem;
-	}
-
-	.inaktiv {
-		color: red;
-		font-size: 1.2rem;
-	}
-
-	a:hover {
-		text-decoration: underline;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
 	}
 
 	#section-2 .container {
@@ -134,6 +91,14 @@
 		display: grid;
 		place-items: center;
 		grid-template-columns: 1fr 1fr;
+	}
+	#section-2 p {
+		max-width: 500px;
+	}
+
+	span {
+		font-weight: 500;
+		font-size: 1.5rem;
 	}
 
 	#section-2 img {
@@ -143,7 +108,26 @@
 		/* box-shadow: -3px 3px 4px rgb(59, 59, 59); */
 	}
 
-	#section-2 p {
+	#section-3 .container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#section-4 .container {
+		margin: 0 auto;
+		display: grid;
+		place-items: center;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#section-4 img {
+		width: auto;
+		height: 500px;
+		transform: rotate(90deg);
+		/* box-shadow: -3px 3px 4px rgb(59, 59, 59); */
+	}
+
+	#section-4 p {
 		max-width: 500px;
 	}
 </style>
