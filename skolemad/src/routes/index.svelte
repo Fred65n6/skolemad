@@ -2,7 +2,7 @@
 	export const prerender = true;
 	// @ts-ignore
 	import Hero from './Hero.svelte';
-	import Footer from './Footer.svelte';
+
 	import Header from '../lib/header/Header.svelte';
 </script>
 
@@ -88,8 +88,6 @@
 		</p>
 	</div>
 </section>
-
-<Footer />
 
 <style>
 	h2,

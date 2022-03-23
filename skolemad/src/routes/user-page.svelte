@@ -14,10 +14,10 @@
 	export const prerender = true;
 	// @ts-ignore
 
-	import Footer from './Footer.svelte';
 	import Madplan from './Madplan.svelte';
 	import Kontooversigt from './Kontooversigt.svelte';
 	import Header from '../lib/header/Header-2.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <svelte:head>
@@ -30,7 +30,9 @@
 	<Kontooversigt />
 	<div class="container">
 		<a href="*">Afbestilling af ordre</a>
-		<a id="knap" href="*">Tilføj ny ordre</a>
+		<div id="order" class:active={$page.url.pathname === '/order'}>
+			<a id="knap" sveltekit:prefetch href="/order">+ Tilføj ordre</a>
+		</div>
 	</div>
 </section>
 <section id="section-2">
@@ -103,8 +105,6 @@
 		</div>
 	</div>
 </section>
-
-<Footer />
 
 <style>
 	#section-1 .container {
