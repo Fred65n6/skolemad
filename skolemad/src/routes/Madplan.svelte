@@ -256,9 +256,31 @@
 	td {
 		background-color: #ededed;
 		padding: 2rem;
+		border-top: solid 2px #ddebed;
+		border-left: solid 2px #ddebed;
 	}
 
 	.uge {
 		background-color: #ddebed;
+	}
+
+	/* top-left border-radius */
+	table tr:first-child th:first-child {
+		border-top-left-radius: 12px;
+	}
+
+	/* top-right border-radius */
+	table tr:first-child th:last-child {
+		border-top-right-radius: 12px;
+	}
+
+	/* bottom-left border-radius */
+	table tr:last-child td:first-child {
+		border-bottom-left-radius: 12px;
+	}
+
+	/* bottom-right border-radius */
+	table tr:last-child td:last-child {
+		border-bottom-right-radius: 12px;
 	}
 </style>

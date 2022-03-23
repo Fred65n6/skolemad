@@ -3,11 +3,14 @@
 	// @ts-ignore
 	import Hero from './Hero.svelte';
 	import Footer from './Footer.svelte';
+	import Header from '../lib/header/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>SkoleMad.dk</title>
 </svelte:head>
+
+<Header />
 
 <Hero />
 
@@ -97,6 +100,7 @@
 	#section-1 {
 		margin: 0 auto;
 		grid-template-columns: 1fr 1fr;
+		padding-bottom: 4rem;
 	}
 
 	#knap {
@@ -164,7 +168,7 @@
 		color: #007283;
 		display: flex;
 		padding-top: 14rem;
-		padding-bottom: 16rem;
+		padding-bottom: 14rem;
 		background-image: url(./blue-bg.svg);
 		background-size: cover;
 	}

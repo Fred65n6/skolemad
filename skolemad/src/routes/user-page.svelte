@@ -17,11 +17,13 @@
 	import Footer from './Footer.svelte';
 	import Madplan from './Madplan.svelte';
 	import Kontooversigt from './Kontooversigt.svelte';
+	import Header from '../lib/header/Header-2.svelte';
 </script>
 
 <svelte:head>
 	<title>SkoleMad.dk</title>
 </svelte:head>
+<Header />
 <section id="heading"><h1>Velkommen Stefan</h1></section>
 
 <section id="section-1">
@@ -32,10 +34,10 @@
 	</div>
 </section>
 <section id="section-2">
-	<h2>Leverandør til Kalvebod Fælled Skole</h2>
 	<div class="container">
 		<div class="">
-			<h3>Bestilling og abonnoment</h3>
+			<h2>Bestilling og abonnement</h2>
+			<br />
 			<p>
 				Hos os har du to forskellige muligheder for bestilling af madpakke til dit barn: <br />
 				<span>1. Fast abonnement</span> Ved køb af fast abonnement, vil dit barn helt automatisk få
@@ -55,12 +57,38 @@
 <section id="section-3">
 	<h2>Denne måneds madplan</h2>
 	<Madplan />
+	<div class="container">
+		<div class="flex">
+			<h4>Har dit barn allergener eller bestemte kostvaner?</h4>
+			<img src="pil-madplan.svg" alt="pil" />
+		</div>
+		<br />
+		<div class="ikoner">
+			<div class="flex">
+				<img src="glutenikon.svg" alt="glutenfri" />
+				<p>- Glutenfri</p>
+			</div>
+			<div class="flex">
+				<img src="vegetarikon.svg" alt="glutenfri" />
+				<p>- Vegetarisk</p>
+			</div>
+			<div class="flex">
+				<img src="mælkikon.svg" alt="glutenfri" />
+				<p>- Laktosefri</p>
+			</div>
+			<div class="flex">
+				<img src="nødikon.svg" alt="glutenfri" />
+				<p>- Nøddefri</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section id="section-4">
-	<h2>Leverandør til Kalvebod Fælled Skole</h2>
 	<div class="container">
 		<div class="">
+			<h2>Leverandør til Kalvebod Fælled Skole</h2>
+			<br />
 			<h3>Madskolen SMAG</h3>
 			<p>
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dicta vel quos! Quidem
@@ -108,9 +136,20 @@
 		/* box-shadow: -3px 3px 4px rgb(59, 59, 59); */
 	}
 
-	#section-3 .container {
+	#section-3 {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		place-items: center;
+		padding-bottom: 4rem;
+	}
+	#section-3 .container {
+		margin: 0 auto;
+		display: grid;
+		place-items: center;
+	}
+	.ikoner {
+		display: flex;
+		gap: 50px;
+		margin-block: 0rem;
 	}
 
 	#section-4 .container {

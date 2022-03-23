@@ -32,7 +32,7 @@
 
 <style>
 	Footer {
-		margin-top: 2rem;
+		margin-top: 4rem;
 		padding-block: 5rem;
 		display: grid;
 		justify-items: center;
