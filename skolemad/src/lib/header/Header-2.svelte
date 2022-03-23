@@ -12,18 +12,18 @@
 
 	<nav>
 		<ul>
+			<li class="dropdown dropdown-hover">
+				<label tabindex="0" id="knap" class="btn border-none m-1">PROFIL +</label>
+				<ul
+					tabindex="0"
+					class="dropdown-content menu p-8 text-center shadow bg-base-100 rounded-box w-52"
+				>
+					<li><a>Item 1</a></li>
+					<li><a>Item 2</a></li>
+				</ul>
+			</li>
 			<li class:active={$page.url.pathname === '*'}>
 				<a sveltekit:prefetch href="/">Bestil</a>
-			</li>
-
-			<li>
-				<a href="#">Profil</a>
-				<!-- First Tier Drop Down -->
-				<ul>
-					<li><a href="#">Themes</a></li>
-					<li><a href="#">Plugins</a></li>
-					<li><a href="#">Tutorials</a></li>
-				</ul>
 			</li>
 
 			<li class:active={$page.url.pathname === '*'}>
