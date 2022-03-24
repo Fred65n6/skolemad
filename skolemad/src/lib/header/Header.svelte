@@ -22,9 +22,6 @@
 				<a sveltekit:prefetch href="/">For leverandøre</a>
 			</li>
 			<li class:active={$page.url.pathname === '*'}>
-				<a sveltekit:prefetch href="/">Priser</a>
-			</li>
-			<li class:active={$page.url.pathname === '*'}>
 				<a sveltekit:prefetch href="/">Kontakt</a>
 			</li>
 
@@ -44,7 +41,7 @@
 		padding-block: 0.5rem;
 		display: flex;
 		justify-content: space-between;
-		background-color: rgba(255, 255, 255, 0.728);
+		background-color: rgba(255, 255, 255, 0.7);
 	}
 
 	.corner a {
@@ -53,6 +50,10 @@
 		justify-content: center;
 		width: 100%;
 		height: 100%;
+	}
+
+	#knap {
+		font-size: 0.8rem;
 	}
 
 	#login {

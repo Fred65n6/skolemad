@@ -43,7 +43,12 @@
 							<div class="mx-2">Køb mdr. <span>**</span></div>
 							<div class="dropdown">
 								<!-- svelte-ignore a11y-label-has-associated-control -->
-								<label tabindex="0" class="btn m-1 bg-black ">Vælg </label>
+								<label
+									tabindex="0"
+									id="knap "
+									class="btn m-2 bg-[#80b103] hover:bg-[#648807] hover:decoration-solid border-0 rounded-3xl "
+									>Vælg
+								</label>
 								<ul
 									tabindex="0"
 									class="dropdown-content menu  shadow bg-base-100 rounded-box w-96 grid grid-cols-2"
@@ -52,7 +57,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Marts</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -60,7 +65,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">April</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -68,7 +73,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Maj</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -76,7 +81,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Juni</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -84,7 +89,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Juli</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -95,7 +100,7 @@
 					<div class="form-control">
 						<label class="label cursor-pointer">
 							<div class="mx-2  my-4">ingen</div>
-							<input type="checkbox" class="checkbox" />
+							<input type="checkbox" checked="checked" class="checkbox" />
 						</label>
 					</div>
 				</div>
@@ -113,7 +118,11 @@
 							<div class="mx-2">Køb mdr. <span>**</span></div>
 							<div class="dropdown">
 								<!-- svelte-ignore a11y-label-has-associated-control -->
-								<label tabindex="0" class="btn m-1 bg-black ">Vælg </label>
+								<label
+									tabindex="0"
+									class="btn m-1 bg-[#80b103] hover:bg-[#648807] hover:decoration-solid border-0 rounded-3xl "
+									>Vælg
+								</label>
 								<ul
 									tabindex="0"
 									class="dropdown-content menu  shadow bg-base-100 rounded-box w-96 grid grid-cols-2"
@@ -130,7 +139,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">April</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -138,7 +147,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Maj</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -146,7 +155,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Juni</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -154,7 +163,7 @@
 										<div class="form-control">
 											<label class="label cursor-pointer">
 												<div class="mx-2">Juli</div>
-												<input type="checkbox" checked="checked" class="checkbox" />
+												<input type="checkbox" class="checkbox" />
 											</label>
 										</div>
 									</li>
@@ -179,7 +188,7 @@
 					<div class="form-control">
 						<label class="label cursor-pointer">
 							<div class="mx-2">Almindelig</div>
-							<input type="checkbox" class="checkbox" />
+							<input type="checkbox" checked="checked " class="checkbox text-green-800 " />
 						</label>
 					</div>
 					<div class="form-control">
@@ -193,14 +202,14 @@
 				<div class="flex gap-4">
 					<div class="form-control">
 						<label class="label cursor-pointer">
-							<div class="mx-2">ALmindelig</div>
+							<div class="mx-2">Almindelig</div>
 							<input type="checkbox" class="checkbox" />
 						</label>
 					</div>
 					<div class="form-control">
 						<label class="label cursor-pointer">
 							<div class="mx-2">Vegetar</div>
-							<input type="checkbox" class="checkbox" />
+							<input type="checkbox" checked="checked" class="checkbox" />
 						</label>
 					</div>
 				</div>
@@ -214,7 +223,7 @@
 			<br />
 			<p class="font-bold">Alle konti</p>
 
-			<p>Måned (FEBRUAR)</p>
+			<p>Måned (MARTS)</p>
 			<p>Fast Abonnoment</p>
 			<hr />
 			<div class="flex space-x-36">

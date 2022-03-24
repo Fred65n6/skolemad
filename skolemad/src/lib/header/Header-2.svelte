@@ -56,6 +56,10 @@
 		height: 100%;
 	}
 
+	#knap {
+		font-size: 0.8rem;
+	}
+
 	#login {
 		background-color: #87ae24;
 		padding: 0.5rem;

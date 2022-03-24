@@ -173,6 +173,5 @@
 
 	#section-4 .container {
 		margin: 0 auto;
-		max-width: 400px;
 	}
 </style>

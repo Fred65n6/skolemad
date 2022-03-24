@@ -283,4 +283,8 @@
 	table tr:last-child td:last-child {
 		border-bottom-right-radius: 12px;
 	}
+
+	td:first-child {
+		border-left: none;
+	}
 </style>

@@ -54,7 +54,7 @@
 			<div class="">
 				<h4>Hjemmeadresse</h4>
 				<p>
-					Emilie Fischer Dyhrberg Hansen <br /> Nørrebrogade 66C, 2.3 <br /> 2200 København N <br />
+					Stefan Grage <br /> Nørrebrogade 66C, 2.3 <br /> 2200 København N <br />
 					Danmark
 				</p>
 			</div>

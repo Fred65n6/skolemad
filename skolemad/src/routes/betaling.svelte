@@ -46,7 +46,7 @@
 			<br />
 			<p class="font-bold">Alle konti</p>
 
-			<p>Måned (FEBRUAR)</p>
+			<p>Måned (MARTS)</p>
 			<p>Fast Abonnoment</p>
 			<hr />
 			<div class="flex space-x-36">
