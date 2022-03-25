@@ -1,9 +1,9 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
-const netlify = require('@sveltejs/adapter-netlify') = {
+const config = {
 	kit: {
-		adapter: netlify(),
+		adapter: adapter(),
 
 		// Override http methods in the Todo forms
 		methodOverride: {
@@ -12,4 +12,8 @@ const netlify = require('@sveltejs/adapter-netlify') = {
 	}
 };
 
-export default config;
+export default {
+	kit: {
+		adapter: adapter()
+	}
+};
