@@ -85,10 +85,6 @@
 		gap: 3rem;
 	}
 
-	input {
-		color: black;
-	}
-
 	.container-left,
 	.container-right {
 		width: 100%;
