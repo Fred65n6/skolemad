@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="logo">
-		<img src="skolemad_logo.png" alt="logo" />
+		<img src="logo.png" alt="logo" />
 	</div>
 </footer>
 
