@@ -1,5 +1,11 @@
 import adapter from '@sveltejs/adapter-netlify';
 
+export default {
+	kit: {
+		adapter: adapter()
+	}
+};
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -9,11 +15,5 @@ const config = {
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
 		}
-	}
-};
-
-export default {
-	kit: {
-		adapter: adapter()
 	}
 };
