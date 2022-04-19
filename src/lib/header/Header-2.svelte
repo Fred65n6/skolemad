@@ -5,7 +5,7 @@
 <header>
 	<div class="corner">
 		<a href="/">
-			<img src="./skolemad_logo.png" alt="logo" />
+			<img src="skolemad_logo.png" alt="logo" />
 		</a>
 	</div>
 
