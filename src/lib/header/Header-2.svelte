@@ -12,13 +12,13 @@
 	<nav>
 		<ul>
 			<li class="dropdown dropdown-hover">
-				<label tabindex="0" id="knap" class="btn border-none m-1">PROFIL +</label>
+				<div tabindex="0" id="knap" class="btn border-none m-1">PROFIL +</div>
 				<ul
 					tabindex="0"
 					class="dropdown-content menu p-8 text-center shadow bg-base-100 rounded-box w-52"
 				>
-					<li><a>Item 1</a></li>
-					<li><a>Item 2</a></li>
+					<li><a href="*">Item 1</a></li>
+					<li><a href="*">Item 2</a></li>
 				</ul>
 			</li>
 			<li class:active={$page.url.pathname === '*'}>
@@ -57,13 +57,6 @@
 
 	#knap {
 		font-size: 0.8rem;
-	}
-
-	#login {
-		background-color: #87ae24;
-		padding: 0.5rem;
-		border-radius: 12px;
-		box-shadow: 3px 3px 4px rgb(59, 59, 59);
 	}
 
 	.corner img {

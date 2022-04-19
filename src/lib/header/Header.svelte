@@ -55,13 +55,6 @@
 		font-size: 0.8rem;
 	}
 
-	#login {
-		background-color: #87ae24;
-		padding: 0.5rem;
-		border-radius: 12px;
-		box-shadow: 3px 3px 4px rgb(59, 59, 59);
-	}
-
 	.corner img {
 		width: auto;
 		height: 2rem;
