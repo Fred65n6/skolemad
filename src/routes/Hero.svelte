@@ -22,8 +22,7 @@
 		grid-template-columns: 1fr 1fr;
 		height: 95vh;
 		width: 100%;
-		background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0)),
-			url('./hero.jpg');
+		background-image: url('../../static/hero.jpg');
 		background-size: cover;
 	}
 

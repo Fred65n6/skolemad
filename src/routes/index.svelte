@@ -121,7 +121,7 @@
 		display: flex;
 		padding-top: 14rem;
 		padding-bottom: 14rem;
-		background-image: url(./blue-bg.svg);
+		background-image: url(../../static/blue-bg.svg);
 		background-size: cover;
 		width: 100%;
 	}
@@ -167,7 +167,7 @@
 		display: flex;
 		padding-top: 14rem;
 		padding-bottom: 14rem;
-		background-image: url(./blue-bg.svg);
+		background-image: url(../../static/blue-bg.svg);
 		background-size: cover;
 	}
 
