@@ -62,7 +62,7 @@
 		<img src="mad-collage-3.jpg" alt="" />
 		<img src="mad-collage-4.jpg" alt="" />
 	</div>
-	<a id="knap" href="*">Kontakt os og hør mere</a>
+	<a id="knap" href="/">Kontakt os og hør mere</a>
 </section>
 
 <section id="section-4">

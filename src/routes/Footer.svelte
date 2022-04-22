@@ -14,15 +14,15 @@
 		<h3>Links</h3>
 		<div class="container flex">
 			<img src="pil.png" alt="telefon" />
-			<a href="*">Vilkår</a>
+			<a href="/">Vilkår</a>
 		</div>
 		<div class="container flex">
 			<img src="pil.png" alt="telefon" />
-			<a href="*">Privatlivspolitik</a>
+			<a href="/">Privatlivspolitik</a>
 		</div>
 		<div class="container flex">
 			<img src="pil.png" alt="telefon" />
-			<a href="*">FAQ</a>
+			<a href="/">FAQ</a>
 		</div>
 	</div>
 	<div class="logo">

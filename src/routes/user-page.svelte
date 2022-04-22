@@ -29,7 +29,7 @@
 <section id="section-1">
 	<Kontooversigt />
 	<div class="container">
-		<a href="*">Afbestilling af ordre</a>
+		<a href="/">Afbestilling af ordre</a>
 		<div id="order" class:active={$page.url.pathname === '/order'}>
 			<a id="knap" sveltekit:prefetch href="/order">+ Tilføj ordre</a>
 		</div>

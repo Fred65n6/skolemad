@@ -4,23 +4,23 @@
 
 <header>
 	<div class="corner">
-		<a href="*">
+		<a href="/">
 			<img src="logo.png" alt="logo" />
 		</a>
 	</div>
 
 	<nav>
 		<ul>
-			<li class:active={$page.url.pathname === '*'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a sveltekit:prefetch href="/">For forældre</a>
 			</li>
-			<li class:active={$page.url.pathname === '*'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a sveltekit:prefetch href="/">For skoler</a>
 			</li>
-			<li class:active={$page.url.pathname === '*'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a sveltekit:prefetch href="/">For leverandøre</a>
 			</li>
-			<li class:active={$page.url.pathname === '*'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a sveltekit:prefetch href="/">Kontakt</a>
 			</li>
 

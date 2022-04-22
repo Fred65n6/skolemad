@@ -1,0 +1,171 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js"
+    ],
+    "dynamicImports": [
+      "src/hooks.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "src/routes/Footer.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-f158224f.css",
+      "assets/Header.svelte_svelte_type_style_lang-4d2effff.css"
+    ]
+  },
+  "src/routes/Footer.svelte": {
+    "file": "entries/pages/Footer.svelte.js",
+    "src": "src/routes/Footer.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js"
+    ],
+    "css": [
+      "assets/entries/pages/Footer.svelte-1bcac63a.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_stores-5fe3ad3b.js",
+      "src/routes/Hero.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-3e2843d3.css",
+      "assets/Header.svelte_svelte_type_style_lang-4d2effff.css"
+    ]
+  },
+  "src/routes/Hero.svelte": {
+    "file": "entries/pages/Hero.svelte.js",
+    "src": "src/routes/Hero.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_stores-5fe3ad3b.js"
+    ],
+    "css": [
+      "assets/entries/pages/Hero.svelte-8e859a16.css"
+    ]
+  },
+  "src/routes/Kontooversigt.svelte": {
+    "file": "entries/pages/Kontooversigt.svelte.js",
+    "src": "src/routes/Kontooversigt.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js"
+    ],
+    "css": [
+      "assets/entries/pages/Kontooversigt.svelte-3e576b4d.css"
+    ]
+  },
+  "src/routes/user-page.svelte": {
+    "file": "entries/pages/user-page.svelte.js",
+    "src": "src/routes/user-page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_stores-5fe3ad3b.js",
+      "_Header-2-64a5d276.js",
+      "src/routes/Kontooversigt.svelte",
+      "src/routes/Madplan.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/user-page.svelte-6645ce54.css"
+    ]
+  },
+  "src/routes/Madplan.svelte": {
+    "file": "entries/pages/Madplan.svelte.js",
+    "src": "src/routes/Madplan.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js"
+    ],
+    "css": [
+      "assets/entries/pages/Madplan.svelte-9061742b.css"
+    ]
+  },
+  "src/routes/betaling.svelte": {
+    "file": "entries/pages/betaling.svelte.js",
+    "src": "src/routes/betaling.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_stores-5fe3ad3b.js",
+      "_Header-2-64a5d276.js"
+    ],
+    "css": [
+      "assets/entries/pages/betaling.svelte-9b721a4f.css"
+    ]
+  },
+  "src/routes/complete.svelte": {
+    "file": "entries/pages/complete.svelte.js",
+    "src": "src/routes/complete.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_Header-2-64a5d276.js",
+      "_stores-5fe3ad3b.js"
+    ],
+    "css": [
+      "assets/entries/pages/complete.svelte-766620a1.css"
+    ]
+  },
+  "src/routes/order.svelte": {
+    "file": "entries/pages/order.svelte.js",
+    "src": "src/routes/order.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-e03aaaec.js",
+      "_Header-2-64a5d276.js",
+      "_stores-5fe3ad3b.js"
+    ],
+    "css": [
+      "assets/entries/pages/order.svelte-326612ac.css"
+    ]
+  },
+  "_index-e03aaaec.js": {
+    "file": "chunks/index-e03aaaec.js"
+  },
+  "_stores-5fe3ad3b.js": {
+    "file": "chunks/stores-5fe3ad3b.js",
+    "imports": [
+      "_index-e03aaaec.js"
+    ]
+  },
+  "_Header-2-64a5d276.js": {
+    "file": "chunks/Header-2-64a5d276.js",
+    "imports": [
+      "_index-e03aaaec.js",
+      "_stores-5fe3ad3b.js"
+    ],
+    "css": [
+      "assets/Header-2-ff8a2a7a.css"
+    ]
+  },
+  "src/hooks.js": {
+    "file": "chunks/hooks-5b953b47.js",
+    "src": "src/hooks.js",
+    "isDynamicEntry": true
+  }
+}

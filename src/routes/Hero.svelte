@@ -8,7 +8,7 @@
 		<div class="form">
 			<input type="username" id="username" name="phone" placeholder="Brugernavn" />
 			<input type="password" id="kodeord" name="kodeord" placeholder="Password" />
-			<a class="not-user" href="*">Endnu ikke bruger?</a>
+			<a class="not-user" href="/">Endnu ikke bruger?</a>
 			<div id="knap" class:active={$page.url.pathname === '/user-page'}>
 				<a sveltekit:prefetch href="/user-page">Login</a>
 			</div>

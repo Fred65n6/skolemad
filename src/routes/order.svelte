@@ -10,9 +10,9 @@
 <section id="section-1">
 	<div class="sti text-sm breadcrumbs center">
 		<ul>
-			<li class="aktiv"><a href="*">Bestilling</a></li>
-			<li><a href="*">Betaling</a></li>
-			<li><a href="*">Bestilling udført</a></li>
+			<li class="aktiv"><a href="/">Bestilling</a></li>
+			<li><a href="/">Betaling</a></li>
+			<li><a href="/">Bestilling udført</a></li>
 		</ul>
 	</div>
 
@@ -232,7 +232,7 @@
 			</div>
 		</div>
 		<div class="text-center">
-			<a href="*">+ Tilføj flere ordre</a>
+			<a href="/">+ Tilføj flere ordre</a>
 			<p class="italic pt-4 pb-6">Eller</p>
 			<div id="betaling" class:active={$page.url.pathname === '/betaling'}>
 				<a id="knap" sveltekit:prefetch href="/betaling">Gå til betaling</a>

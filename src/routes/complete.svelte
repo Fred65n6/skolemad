@@ -8,9 +8,9 @@
 <section id="section-1">
 	<div class="sti text-sm breadcrumbs center">
 		<ul>
-			<li><a href="*">Bestilling</a></li>
-			<li><a href="*">Betaling</a></li>
-			<li class="aktiv"><a href="*">Bestilling udført</a></li>
+			<li><a href="/">Bestilling</a></li>
+			<li><a href="/">Betaling</a></li>
+			<li class="aktiv"><a href="/">Bestilling udført</a></li>
 		</ul>
 	</div>
 

@@ -4,7 +4,7 @@
 
 <header>
 	<div class="corner">
-		<a href="*">
+		<a href="/">
 			<img src="logo.png" alt="logo" />
 		</a>
 	</div>
@@ -17,8 +17,8 @@
 					tabindex="0"
 					class="dropdown-content menu p-8 text-center shadow bg-base-100 rounded-box w-52"
 				>
-					<li><a href="*">Item 1</a></li>
-					<li><a href="*">Item 2</a></li>
+					<li><a href="/">Item 1</a></li>
+					<li><a href="/">Item 2</a></li>
 				</ul>
 			</li>
 			<li class:active={$page.url.pathname === '*'}>
